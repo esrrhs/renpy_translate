@@ -13,6 +13,7 @@ pip install unrpa
 ./renpy_translate -input script的目录
 ```
 工具会找到所有的对话，然后翻译成中文替换。翻译的结果会保存运行目录下的translate.json里。
+
 4. 安装字体，把SourceHanSansLite.ttf放到game\fonts下。并创建文件game\tl\style.rpy，内容为：
 ```python
 translate chinese python:
